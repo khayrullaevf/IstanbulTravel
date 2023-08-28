@@ -1,0 +1,86 @@
+@font-face {
+  font-family: "Santello Regular";
+  src: url("../../assets/fonts/SANTELLO.ttf");
+}
+@font-face {
+  font-family: "Prompt";
+  src: url("../../assets/fonts/Prompt-Regular.ttf");
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../../assets/fonts/Poppins-Regular.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.container {
+  max-width: 1162px;
+  width: 100%;
+  margin: 0 auto;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 29px;
+}
+.navbar-logo {
+  color: #d98400;
+  font-family: "Santello Regular";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.navbar-menu {
+  display: flex;
+  column-gap: 67.17px;
+}
+.navbar-menu__link {
+  color: #343434;
+  font-family: "Prompt";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-bottom: 5px;
+  outline: none;
+  text-decoration: none;
+  border: 2px solid transparent;
+}
+.navbar-menu__link:hover {
+  border-bottom: 2px solid #d98400;
+  color: #000;
+  font-family: "Prompt";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  transition: 0.5s;
+}
+.navbar-button {
+  width: 200px;
+  height: 40px;
+  border-radius: 60px;
+  border: 1px solid #d98400;
+  color: #ea8e00;
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+}
+.navbar-button:hover {
+  background-color: #d98400;
+  color: #fff;
+  transition: 0.5s;
+}

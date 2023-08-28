@@ -1,0 +1,81 @@
+@font-face {
+  font-family: "Santello Regular";
+  src: url("../../assets/fonts/SANTELLO.ttf");
+}
+@font-face {
+  font-family: "Prompt";
+  src: url("../../assets/fonts/Prompt-Regular.ttf");
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../../assets/fonts/Poppins-Regular.ttf");
+}
+@font-face {
+  font-family: "Hind Madurai";
+  src: url("../../assets/fonts/HindMadurai-Medium.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.container {
+  max-width: 1162px;
+  width: 100%;
+  margin: 0 auto;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 106px;
+}
+
+.header-title {
+  color: #2f2617;
+  font-family: "Poppins";
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+  width: 659px;
+  height: 178px;
+}
+.header-subtitle {
+  color: #747272;
+  font-family: "Hind Madurai";
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  width: 480.477px;
+  height: 83.577px;
+  margin-top: 87px;
+  margin-bottom: 70px;
+}
+.header-button {
+  border-radius: 60px;
+  background: #d98400;
+  width: 213px;
+  height: 44px;
+  flex-shrink: 0;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: 2px solid transparent;
+}
+.header-button:hover {
+  color: #d98400;
+  background-color: #ffff;
+  border: 2px solid #d98400;
+  transition: 0.5s;
+}
