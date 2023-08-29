@@ -1,0 +1,93 @@
+@font-face {
+  font-family: "Santello Regular";
+  src: url("../../assets/fonts/SANTELLO.ttf");
+}
+@font-face {
+  font-family: "Prompt";
+  src: url("../../assets/fonts/Prompt-Regular.ttf");
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../../assets/fonts/Poppins-Regular.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.container {
+  max-width: 1162px;
+  width: 100%;
+  margin: 0 auto;
+}
+.statistics {
+  display: flex;
+  flex-direction: column;
+  row-gap: 69px;
+  margin-top: 152px;
+}
+
+.statistics-header {
+  display: flex;
+  flex-direction: column;
+}
+.statistics-header__title {
+  color: #d98400;
+  font-family: "Santello Regular";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.statistics-title {
+  color: #2f2617;
+  font-family: "Poppins";
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 775px;
+}
+.statistics-main {
+  display: flex;
+  align-items: center;
+  column-gap: 136px;
+}
+.statistics-bg {
+  width: 458px;
+  height: 600px;
+  background-size: contain;
+}
+
+.statistics-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 139px;
+  column-gap: 91.29px;
+}
+.statistics-box {
+  display: flex;
+  flex-direction: column;
+}
+.statistics-number {
+  color: #d98400;
+  font-family: "Hind Madurai";
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  max-width: 182.581px;
+  width: 100%;
+}
+.statistics-text {
+  color: #747272;
+  font-family: 'Hind Madurai';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  max-width: 237.355px;
+  width: 100%;
+  
+}

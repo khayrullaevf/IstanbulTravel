@@ -1,0 +1,134 @@
+@font-face {
+  font-family: "Santello Regular";
+  src: url("../../assets/fonts/SANTELLO.ttf");
+}
+@font-face {
+  font-family: "Prompt";
+  src: url("../../assets/fonts/Prompt-Regular.ttf");
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../../assets/fonts/Poppins-Regular.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.container {
+  max-width: 1162px;
+  width: 100%;
+  margin: 0 auto;
+}
+.tour {
+  display: flex;
+  flex-direction: column;
+  row-gap: 139px;
+  margin-top: 183px;
+  margin-bottom: 183px;
+}
+.tour-header {
+  display: flex;
+  column-gap: 152px;
+}
+.tour-title {
+  color: #2f2617;
+  font-family: "Poppins";
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  max-width: 560px;
+  width: 100%;
+  height: 136px;
+}
+.tour-subtitle {
+  color: #747272;
+  font-family: "Hind Madurai";
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  max-width: 447px;
+  width: 100%;
+  height: 115px;
+}
+.tour-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 23px;
+}
+.tour-prev,
+.tour-next {
+  width: 50px;
+  height: 50px;
+}
+
+.tour-content {
+  display: flex;
+  
+}
+.tour-info {
+  width: 627px;
+  height: 460px;
+  border-radius: 30px;
+  background: #f5f4f4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 35px;
+}
+.tour-info__title {
+  color: #2f2617;
+  font-family: "Poppins";
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.tour-description {
+  color: #747272;
+  font-family: "Hind Madurai";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  max-width: 502px;
+  width: 100%;
+  height: 154px;
+  margin-top: 41px;
+  margin-bottom: 82px;
+}
+.read-more{
+  width: 229px;
+  height: 46px;
+  border-radius: 60px;
+  border: 1px solid #d98400;
+  color: #d98400;
+  font-family: "Hind Madurai";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  background-color: transparent;
+}
+.read-more:hover{
+    background-color: #d98400;
+    color: #ffff;
+    border: 1px solid #d98400;
+    transition: 0.5s;
+}
+.tour-bg {
+  width: 386px;
+  height: 460px;
+  border-radius: 30px;
+}
+
+.tour-bg__img{
+  width: 386px;
+  height: 460px;
+  background-size: contain;
+
+}
